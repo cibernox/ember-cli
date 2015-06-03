@@ -57,6 +57,7 @@ describe('Acceptance: ember help', function() {
         expect(output).to.include('  http-mock');
         expect(output).to.include('  http-proxy');
         expect(output).to.include('  initializer');
+        expect(output).to.include('  instance-initializer');
         expect(output).to.include('  mixin');
         expect(output).to.include('  resource');
         expect(output).to.include('  route');
